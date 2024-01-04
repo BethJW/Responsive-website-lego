@@ -287,3 +287,38 @@ footer a {
     font-size: 16px;
   }
 }
+@media (min-width: 900px) {
+  main img {
+    display: none;
+  }
+
+  section.grid-2-column {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .grid-3-col {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .card p {
+    display: none;
+  }
+  .tertiary h2 {
+    padding-top: 0px;
+    text-align: center;
+  }
+  section .grid-1-column-equal {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+  }
+  .twitter-tweet {
+    display: block;
+    margin: 0 auto;
+    padding-left: 170px;
+  }
+  footer {
+    margin: -80px auto;
+  }
+}
