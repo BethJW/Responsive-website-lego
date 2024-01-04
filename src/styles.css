@@ -1,18 +1,48 @@
+body {
+  background-color: rgba(248, 205, 194, 0.452);
+}
 .container {
-  max-width: 1200px;
+  max-width: 1400px;
+  margin: 20px auto;
 }
 header {
+  display: block;
   text-align: center;
+  background-image: linear-gradient(
+      rgba(237, 56, 6, 0.274),
+      rgba(4, 4, 4, 0.37)
+    ),
+    url("../images/lego-image.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  margin: 0px;
+  padding: 200px 0;
 }
+
 header h1 {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  font-size: 50px;
+  font-size: 100px;
+  line-height: 80px;
   margin: 0px;
 }
 
 header h2,
 h3 {
   font-family: "Young Serif", serif;
-  margin: 0px;
+  margin: 10px;
+  font-size: 40px;
+  line-height: 100px;
+}
+header a {
+  display: inline-block;
+  background-color: white;
+  padding: 20px 60px;
+  margin-top: 10px;
+  font-size: 22px;
+  text-decoration: none;
+  font-family: "Young Serif", serif;
+  color: black;
+  border-radius: 10px;
 }
