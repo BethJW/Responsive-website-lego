@@ -248,4 +248,42 @@ footer a {
     padding-top: 0px;
     text-align: center;
   }
+  section .grid-1-column-equal {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+  }
+  .twitter-tweet {
+    display: block;
+    margin: 0 auto;
+  }
+  footer {
+    background-image: linear-gradient(
+        rgba(60, 58, 57, 0.789),
+        rgba(4, 4, 4, 0.948)
+      ),
+      url("../images/lego-cover.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 0px;
+    margin-top: -160px;
+  }
+
+  footer p strong {
+    margin: 0px;
+    text-align: left;
+    padding: 0px;
+    font-size: 20px;
+  }
+
+  footer .grid-3-col {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0px;
+  }
+  footer a {
+    color: white;
+    font-size: 16px;
+  }
 }
