@@ -66,6 +66,7 @@ main img {
   display: block;
   margin-left: 20px;
   border-radius: 10px;
+  filter: brightness(90%) drop-shadow(5px 5px 5px);
 }
 main h2,
 p {
@@ -87,6 +88,7 @@ main p {
 
 .secondary {
   background-color: rgba(217, 212, 212, 0.558);
+  padding-bottom: 50px;
 }
 
 .secondary h2 {
@@ -103,6 +105,7 @@ main p {
   background-color: white;
   margin: 10px 10px;
   border-radius: 10px;
+  box-shadow: 5px 5px 5px;
 }
 .card h2 {
   text-align: center;
@@ -113,4 +116,136 @@ main p {
 }
 .card p {
   font-size: 20px;
+}
+section.tertiary {
+  background-color: white;
+}
+.tertiary h2 {
+  padding-top: 30px;
+  text-align: center;
+}
+section .grid-1-column-equal {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 20px auto;
+}
+.twitter-tweet {
+  width: 100%;
+  margin: 70px auto;
+}
+footer {
+  background-image: linear-gradient(
+      rgba(60, 58, 57, 0.789),
+      rgba(4, 4, 4, 0.948)
+    ),
+    url("../images/lego-cover.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 20px;
+}
+
+footer p strong {
+  margin: 0px;
+  text-align: left;
+  padding: 0px;
+  font-size: 25px;
+}
+
+footer .grid-3-col {
+  grid-gap: 0px;
+}
+footer a {
+  color: white;
+  font-size: 20px;
+}
+@media (max-width: 900px) {
+  .container {
+    margin: 0px;
+  }
+  header {
+    margin: 0px;
+    padding: 0px;
+  }
+  header h1 {
+    font-size: 50px;
+    line-height: 50px;
+  }
+  header h2,
+  h3 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  header a {
+    display: inline-block;
+    background-color: white;
+    padding: 10px 30px;
+    margin-bottom: 10px;
+    font-size: 11px;
+    text-decoration: none;
+    font-family: "Young Serif", serif;
+    color: black;
+    border-radius: 10px;
+  }
+  main {
+    padding: 0px;
+  }
+
+  section.grid-2-column {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  main img {
+    display: none;
+  }
+  main h2,
+  p {
+    padding: 0px 10px;
+  }
+  main h2 {
+    font-size: 22px;
+    line-height: 20px;
+  }
+  main p {
+    font-size: 15px;
+  }
+  .secondary {
+    background-color: rgba(217, 212, 212, 0.558);
+    padding-bottom: 10px;
+  }
+
+  .secondary h2 {
+    padding-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .grid-3-col {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .card {
+    padding: 10px;
+    background-color: white;
+    margin: 10px auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px;
+  }
+  .card h2 {
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 20px;
+    margin: 0px;
+    line-height: 30px;
+  }
+  .card p {
+    font-size: 20px;
+    text-align: center;
+  }
+  section.tertiary {
+    background-color: white;
+  }
+  .tertiary h2 {
+    padding-top: 0px;
+    text-align: center;
+  }
 }
