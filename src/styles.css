@@ -128,10 +128,10 @@ section .grid-1-column-equal {
   display: grid;
   grid-template-columns: 1fr;
   margin: 20px auto;
+  padding-left: 420px;
 }
 .twitter-tweet {
   width: 100%;
-  margin: 70px auto;
 }
 footer {
   background-image: linear-gradient(
@@ -257,7 +257,6 @@ footer a {
   .twitter-tweet {
     display: block;
     margin: 0 auto;
-    width: 400px;
   }
   footer {
     background-image: linear-gradient(
@@ -318,7 +317,6 @@ footer a {
   .twitter-tweet {
     display: block;
     margin: 10px auto;
-    width: 400px;
   }
   footer {
     margin: 0px auto;
