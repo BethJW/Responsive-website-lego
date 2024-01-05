@@ -70,7 +70,8 @@ main img {
 }
 main h2,
 p {
-  padding: 0px 90px;
+  padding: 0px 60px;
+  margin-left: 30px;
 }
 main h2 {
   font-size: 32px;
@@ -283,8 +284,7 @@ footer a {
     grid-template-columns: 1fr;
     grid-gap: 0px;
   }
-  footer a {
-    color: white;
+  footer p a {
     font-size: 16px;
   }
 }
@@ -320,5 +320,9 @@ footer a {
   }
   footer {
     margin: 0px auto;
+  }
+
+  footer p a {
+    font-size: 16px;
   }
 }
